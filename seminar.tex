@@ -1,0 +1,51 @@
+\documentclass[times, utf8, seminar]{fer}
+\usepackage{booktabs}
+
+\begin{document}
+
+% TODO: Navedite naslov rada.
+\title{Analiza i opis alata za analizu metagenoma}
+
+% TODO: Navedite vaše ime i prezime.
+\author{Mateo Stjepanović}
+
+% TODO: Navedite ime i prezime mentora.
+\voditelj{Mirjana Domazet-Lošo}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Uvod}
+Bioinformatika kao interdisciplinarna znanost raste kroz posljednje desetljeće. Najviše se ističe proučavanje i analiza metagenoma. Iako brzorastuća znanost još uvijek nailazi na mnoge probleme koje pokušava riješiti. Neka od tih rješenja će biti predstavljena kroz ovaj rad, te će se pokušati usporediti iz više pogleda. Usporedit će se zauzeće memorije, vrijeme izvedbe te kvalitetu rada.
+\\Zauzeće memorije se ispituje na dva načina. Zauzeće radne memorije (RAM), i memorija koja je potrebna za pohranu, s idejom da će zauzeće radne memorije za dimenziju strožije od memorije za pohranu. Želimo imati proizvod koji će funkcionirati s što boljom preciznošću i osjetljivošću, ali i da se može istovremeno koristiti na osobnim računalim ( bez potrebe za \textit{high-end} računalima).
+\\Vrijeme izvedbe će se također ispitivati na dva načina. Brzinu podešavanja sustava da bude spreman za korištenje, te samo vrijeme koje je potrebno da bi se određeni skup podataka klasificirao. Pod podešavanje sustava svrstavamo kreiranje baze podataka koja se koristi, te samu instalaciju sustava.
+\\Podaci koji će se ispitivati su izvučeni s NCBI stranice, te smješteni u lokalni \textit{file system}, a baze podataka će biti referente baze podataka koje su predstavljene na službenim stranicama alata, te će biti posebno naglašene kroz daljni tekst.
+\\Kvaliteta rada se odnosi na preciznos i osjetljivost (odziv). Preciznost - udio točno klasificiranih primjera u skupu svih pozitivno klasificiranim primjerima. Odziv - udio pozitivno klasificiranih primjera u skupu svih pozitivnih primjera.
+\\Relativno velik broj alata je do sada pokušao riješiti probleme između preciznosti i odziva. Neki od njih staju na stranu odziva gdje žele klasificirati što više podataka, iako bi to moglo značiti da je veliki broj također pogrešno klasificiran. U tom tonu se razvijaju dvije vrste alata. Alati s potpunim i nepotpunim poravnanjem. Alati s potpunim poravnanjem rade na način da da klasificiraju samo one podatke koje su uspjeli naći u bazi podataka sa stopostotnim podudaranjem. Podaci koji to ne uspiju ostaju neklasificirani.
+Alati s nepotpunim poravnanjem rade na način da uzimaju male dijelova podataka te traže potpunu točnost s nekim dijelom podataka unutar baze. Tada šire testni podatak te traže ono podudaranje s kojim se može testni podatak najviše proširiti. Upravo tim postupkom podižemo razinu odziva, a iz navedenog načina rada možemo vidjeti zašto je preciznost upitna.
+\\Kroz ovaj rad upoznat ćemo se i s jednim alatom koji pokušava spojiti oba načina te tvrdi da ima najbolji omjer preciznosti i odziva. Bit će obrađen u svom posebnom naslovu.
+\\Iako će se testirati u \textit{laboratorijskom okruženju} rezultati koji bi imali najviše težine su oni iz prirodnog okruženja. Budući da za potrebe ovog rada navedni podaci nisu mogući te informacije i tablice preuzeti iz službenih izvora.
+\chapter{Alati s potpunim poravnanjem}
+Alati s potpunim poravnanjem rade na način da se ulazni podatak, u nekom od formata priklanim za obradu, pretvori u niz k-mera te se traže točna poravnanja s nekim od podataka unutar baze podataka. Kada se nadje takav klasificira se onaj koji ima najveći \textit{score}. U nastavku ovog poglavlja predstavljena su dva referentna alata s potpunim poravnanjem, te jedan koji je mješavina potpunog i nepotpunog poravnanja.
+\section{Kraken}
+\section{Clark}
+\section{Kaiju - prijelaz izmeđe potpunog i nepotpunog poravnanja}
+\chapter{Alati s nepotpunim poravnanjem}
+\section{Centrifuge}
+\chapter{Statistička obrada}
+\chapter{Zaključak}
+Zaključak.
+
+\bibliography{literatura}
+\bibliographystyle{fer}
+\cite{CLARK}
+\cite{CLARK-S}
+\cite{Centrifuge}
+\cite{Kaiju}
+\cite{Kraken}
+\cite{Report}and
+\chapter{Sažetak}
+Sažetak.
+
+\end{document}
