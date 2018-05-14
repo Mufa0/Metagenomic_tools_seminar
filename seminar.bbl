@@ -1,38 +1,9 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{1}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Daehwan~Kim i et~al.(2016)]{Centrifuge}
-Florian P.~Breitwieser Daehwan~Kim, Li~Song i et~al.
-\newblock Centrifuge: rapid and sensitive classification of metagenomic
-  sequences.
-\newblock \emph{Genome Research}, 26:\penalty0 1721 -- 1729, 2016.
-
-\bibitem[E.~Wood i L.Salzberg(2014)]{Kraken}
-Derrick E.~Wood i Steven L.Salzberg.
-\newblock Kraken: ultrafast metagenomic sequence classification using exact
-  alignments.
-\newblock \emph{Genome Biology 15:R46}, 2014.
-
-\bibitem[Lindgreen i et~al.(2016)]{Report}
-S.~Lindgreen i et~al.
-\newblock An evaluation of the accuracy and speed of metagenome analysis tools.
-\newblock \emph{Scientific Reports}, 6:\penalty0 19233 --, 2016.
-
-\bibitem[Menzel i et~al.(2016)]{Kaiju}
-P.~Menzel i et~al.
-\newblock Fast and sensitive taxonomic classification for metagenomics with
-  kaiju.
-\newblock \emph{Nature Communications}, 7:\penalty0 11257--, 2016.
-
-\bibitem[Ounit i Lonardi(2016)]{CLARK-S}
-Rachid Ounit i Stefano Lonardi.
-\newblock Higher classification sensitivity of short metagenomic reads with
-  clark-s.
-\newblock \emph{Bioinformatics}, 32:\penalty0 3823 -- 3825, 2016.
 
 \bibitem[Ounit~R(2015)]{CLARK}
 Close TJ Lonardi~S. Ounit~R, Wanamaker~S.
