@@ -8,6 +8,9 @@
 \contentsline {chapter}{\numberline {3}FM indeksiranje}{9}
 \contentsline {section}{\numberline {3.1}Centrifuge}{9}
 \contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ka obrada}{12}
-\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{13}
-\contentsline {chapter}{\numberline {6}Literatura}{14}
-\contentsline {chapter}{\numberline {7}Sa\IeC {\v z}etak}{15}
+\contentsline {section}{\numberline {4.1}Usporedba Kraken-a i Clark-a}{12}
+\contentsline {section}{\numberline {4.2}Usporedba Kraken-a i Kaiju-a}{13}
+\contentsline {section}{\numberline {4.3}Centrifuge rezultati izvo\IeC {\dj }enja}{14}
+\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{16}
+\contentsline {chapter}{\numberline {6}Literatura}{17}
+\contentsline {chapter}{\numberline {7}Sa\IeC {\v z}etak}{18}
