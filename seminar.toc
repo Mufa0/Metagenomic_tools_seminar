@@ -1,12 +1,13 @@
 \babel@toc {croatian}{}
 \contentsline {chapter}{\numberline {1}Uvod}{1}
-\contentsline {chapter}{\numberline {2}Alati s potpunim poravnanjem}{3}
+\contentsline {chapter}{\numberline {2}K-mer bazirano indeksiranje}{3}
 \contentsline {section}{\numberline {2.1}Kraken}{3}
 \contentsline {section}{\numberline {2.2}Clark}{4}
-\contentsline {section}{\numberline {2.3}Kaiju - prijelaz izme\IeC {\dj }e potpunog i nepotpunog poravnanja}{5}
-\contentsline {chapter}{\numberline {3}Alati s nepotpunim poravnanjem}{6}
-\contentsline {section}{\numberline {3.1}Centrifuge}{6}
-\contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ka obrada}{7}
-\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{8}
-\contentsline {chapter}{\numberline {6}Literatura}{9}
-\contentsline {chapter}{\numberline {7}Sa\IeC {\v z}etak}{10}
+\contentsline {section}{\numberline {2.3}Kaiju - spajanje dva na\IeC {\v c}ina indeksiranja}{6}
+\contentsline {subsection}{\numberline {2.3.1}Algoritam}{7}
+\contentsline {chapter}{\numberline {3}FM indeksiranje}{9}
+\contentsline {section}{\numberline {3.1}Centrifuge}{9}
+\contentsline {chapter}{\numberline {4}Statisti\IeC {\v c}ka obrada}{12}
+\contentsline {chapter}{\numberline {5}Zaklju\IeC {\v c}ak}{13}
+\contentsline {chapter}{\numberline {6}Literatura}{14}
+\contentsline {chapter}{\numberline {7}Sa\IeC {\v z}etak}{15}
